@@ -22,8 +22,8 @@ void IncreaseSize(SeqList *L,int len){
     free(p);
 }
 int main(){
-	SeqList *L;
-    InitList(L);
-	IncreaseSize(L,5);
+    SeqList L;
+    InitList(&L);
+    IncreaseSize(&L,5);
     return 0;
 }
