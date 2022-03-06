@@ -22,8 +22,9 @@ void IncreaseSize(SeqList *L,int len){
     free(p);
 }
 int main(){
-    SeqList L;
-    InitList(&L);
+    SeqList L;InitList(&L);
+    printf("线性表原长度：%d",L.MaxSize);
     IncreaseSize(&L,5);
+    printf("线性表扩容后长度：%d",L.MaxSize);
     return 0;
 }
