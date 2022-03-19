@@ -23,5 +23,6 @@ bool StackEmpty(SqStack s){
 int main(){
 	SqStack S;
 	InitStack(&S);
+	printf("%d",StackEmpty(S));
 	return 0;
 }
