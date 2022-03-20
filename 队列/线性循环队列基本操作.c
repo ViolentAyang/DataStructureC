@@ -58,15 +58,9 @@ int main(){
 	InitQUeue(&S);
 	int x=0;
 	printf("是否为空：%d\n",QueueEmpty(S));
-	EnQueue(&S,1);
-	EnQueue(&S,2);
-	EnQueue(&S,3);
-	EnQueue(&S,4);
-	EnQueue(&S,5);
-	EnQueue(&S,6);
-	EnQueue(&S,7);
-	EnQueue(&S,8);
-	EnQueue(&S,9);
+	for(int i=1;i<=9;i++){
+		EnQueue(&S,i);
+	}
 	PrintQueue(S);
 	printf("是否为满:%d\n",QueueFull(S));
 	printf("是否为空:%d\n",QueueEmpty(S));
