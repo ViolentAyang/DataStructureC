@@ -3,8 +3,8 @@
 ![](https://github.com/penghuwan/water.js/blob/master/logo.png)
 
 > 版本：1.0<br>
-> 作者：刘子扬<br>
-> 邮件：1972076517@qq.com <br>
+> 作者：ViolentAyang<br>
+> 邮件：violentayang666@gmail.com <br>
 
 <a href="http://www.violentayang.site/"><img src="https://img.shields.io/badge/ayang-网站-orange.svg"></a>
 <a href="https://blog.csdn.net/L6666688888?type=blog" target="_blank"><img src="https://img.shields.io/badge/blog-博客-blue.svg"></a>
